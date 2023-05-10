@@ -1,0 +1,482 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-1vw {
+    font-size: 1.5vw;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-2vw {
+    font-size: 2vw;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
+
+.fWeight-400 {
+    font-weight: 400;
+}
+
+.fWeight-500 {
+    font-weight: 500;
+}
+
+.fWeight-600 {
+    font-weight: 600;
+}
+
+.fWeight-700 {
+    font-weight: 700;
+}
+
+.fWeight-800 {
+    font-weight: 800;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.colorGrey {
+    color: #3D3D3D;
+}
+
+.colorchanging {
+    background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-main {
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+}
+
+.bg-services {
+    background: #2AB7CA;
+    padding: 1px;
+}
+
+.bg-2 {
+    background: linear-gradient(83.18deg, #E0E3DF 2.38%, #C1DFFC 47.26%, #95F2FF 100%);
+}
+
+.grow {
+    font-size: 11vw;
+    line-height: 19vh;
+}
+
+.color {}
+
+.business {
+    font-size: 4.5vw;
+}
+
+.withUs {
+    font-size: 3.3vw;
+}
+
+.goal {
+    font-size: 1.7vw;
+    border-top: 2px solid #FFCD00;
+    line-height: 5vh;
+}
+
+/* .contact {
+    font-size: 1.3vw;
+} */
+
+.greyBox {
+    background: rgba(8, 26, 63, 0.04);
+    backdrop-filter: blur(10.5px);
+}
+
+
+.purposeText {
+    text-align: justify;
+}
+
+/* 
+.ceo {
+    font-size: 1.5vw;
+} */
+
+.harness p {
+    font-size: 2.5vw;
+    line-height: 5vh;
+}
+
+.power {
+    font-size: 4vw;
+    line-height: 8.5vh;
+    color: #2AB7CA;
+}
+.technology{
+    font-size: 4vw;
+}
+.caseStudyImg {
+    overflow-x: hidden;
+}
+
+.studyBgImg {
+    background-image: url("../IMAGES/Component16.svg");
+    height: 365px;
+    width: 40%;
+}
+
+.studyBgImg-2 {
+    background-image: url("../IMAGES/Component17.svg");
+    height: 365px;
+    width: 40%;
+}
+
+.studyBgImg-3 {
+    background-image: url("../IMAGES/Component17.svg");
+    height: 365px;
+    width: 15%;
+}
+
+.Products p,
+.services p {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-services p {
+    border: none;
+    line-height: 25px;
+}
+
+.innerServiceBox {
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+    border-radius: 30px;
+}
+
+.clientVector {
+    top: 25px;
+    left: 25px;
+}
+
+.what {
+    font-size: 4vw;
+}
+
+.find {
+    background: linear-gradient(83.18deg, rgba(224, 227, 223, 0.5) 2.38%, rgba(193, 223, 252, 0.5) 47.26%, rgba(149, 242, 255, 0.49) 100%);
+}
+
+.findP-1 {
+    line-height: 11vh;
+}
+
+.findh {
+    font-size: 6vw;
+    line-height: 11vh;
+}
+
+.findP-2 {
+    font-size: 2vw;
+    line-height: 5vh;
+}
+
+.clients h1 {
+    font-size: 4vw;
+    line-height: 63px
+}
+
+.address {
+    font-size: 1.3vw;
+}
+
+.slider-text {
+    background-image: url("../IMAGES/shadow.svg");
+    background-repeat: no-repeat;
+    bottom: 0px;
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.sliderImgDiv {
+    background-color: #FFCD00;
+    border-radius: 10px;
+
+}
+
+.sliderImgDiv img {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+/*  #############################  TAB ########################### */
+@media only screen and (max-width: 767px) {
+    .grow {
+        font-size: 19vw;
+        line-height: 14vh;
+    }
+
+    .business {
+        font-size: 10vw;
+    }
+
+    .withUs {
+        font-size: 8vw;
+    }
+
+    .goal {
+        font-size: 2.7vw;
+        line-height: 35px;
+    }
+
+    .contact {
+        font-size: 4vw;
+    }
+
+    .purposeImg {
+        width: 60%;
+        text-align: center;
+    }
+
+    .purposeText {
+        font-size: 4vw;
+    }
+
+    .ceo {
+        font-size: 2.5vw;
+    }
+
+    .our {
+        font-size: 9vw;
+        line-height: 20px;
+    }
+
+    .ColorServices {
+        font-size: 12vw;
+        line-height: 60px;
+    }
+    .Products p,
+    .services p {
+        font-size: 14px;
+    }
+
+    .servicesP {
+        font-size: 3vw;
+        text-align: start;
+    }
+
+    p.innerServiceBox-1 {
+        font-size: 4vw;
+    }
+
+    p.innerServiceBox-2 {
+        font-size: 6vw;
+    }
+    .bg-services p {
+        line-height: 40px;
+    }
+
+    .viewAll {
+        font-size: 3.5vw;
+    }
+
+    .harness p {
+        font-size: 6vw;
+        line-height: 6vh;
+    }
+
+    .power {
+        font-size: 7vw;
+    }
+
+    .technology {
+        font-size: 6vw;
+        line-height: 6vh;
+    }
+
+    .what {
+        font-size: 7vw;
+    }
+
+    .clientAns {
+        font-size: 3.5vw;
+        text-align: justify;
+    }
+
+    .vikesh {
+        font-size: 4vw;
+    }
+
+    .director {
+        font-size: 3vw;
+    }
+
+    .findP-1 {
+        font-size: 5vw;
+    }
+
+    .findP-2 {
+        font-size: 3.5vw;
+        line-height: 4vh;
+    }
+
+    .findh {
+        font-size: 10vw;
+        line-height: 8vh;
+    }
+
+    .four {
+        width: 70%;
+    }
+
+    .clients h1 {
+        font-size: 11vw;
+        line-height: 50px;
+    }
+
+    .footerLogo img {
+        width: 100%;
+    }
+
+    .footer h5 {
+        font-size: 4vw;
+    }
+
+    .footer p {
+        font-size: 3.7vw;
+    }
+
+    .footerLink a {
+        font-size: 15px;
+    }
+
+    .footer i {
+        font-size: 7vw;
+    }
+
+    .footer .Copyright {
+        font-size: 2.5vw;
+    }
+}
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 576px) {
+    .grow {
+        font-size: 22vw;
+    }
+
+    .business {
+        font-size: 12vw;
+    }
+
+    .goal {
+        font-size: 3.7vw;
+        line-height: 30px;
+    }
+
+    .purposeText {
+        font-size: 5vw;
+    }
+
+    .ceo {
+        font-size: 3.5vw;
+    }
+
+    .Products p,
+    .services p {
+        font-size: 12px;
+    }
+
+    p.innerServiceBox-1 {
+        font-size: 5.5vw;
+    }
+
+    p.innerServiceBox-2 {
+        font-size: 9vw;
+    }
+
+    .harness p {
+        font-size: 7vw;
+        line-height: 6vh;
+    }
+
+    .power {
+        font-size: 10vw;
+        line-height: 5vh;
+    }
+
+    .technology {
+        font-size: 8vw;
+        line-height: 5vh;
+    }
+
+    .clientAns {
+        font-size: 4.8vw;
+    }
+
+    .director {
+        font-size: 4vw;
+    }
+
+    .findP-1 {
+        font-size: 7.5vw;
+        line-height: 45px;
+    }
+
+    .findh {
+        font-size: 12vw;
+        line-height: 6vh;
+    }
+
+    .findP-2 {
+        font-size: 4.3vw;
+        line-height: 3.5vh;
+    }
+
+    .footerLogo img {
+        width: 70%;
+    }
+
+    .footer a {
+        font-size: 12px;
+    }
+
+    .Copyright {
+        font-size: 12px;
+    }
+}
