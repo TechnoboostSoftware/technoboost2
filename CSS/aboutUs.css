@@ -5,8 +5,20 @@
     font-style: normal;
 }
 
+.fs-13 {
+    font-size: 13px;
+}
+
 .fs-16 {
     font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-25 {
+    font-size: 25px;
 }
 
 .fs-20 {
@@ -24,13 +36,26 @@
 .fs-2vw {
     font-size: 2vw;
 }
+.fs-2-7vw {
+    font-size: 2.7vw;
+    line-height: 53px;
+}
+
 
 .fs-40 {
     font-size: 40px;
 }
 
+.fs-50 {
+    font-size: 50px;
+}
+
 .fs-3vw {
     font-size: 3vw;
+}
+
+.fs-4vw {
+    font-size: 4vw;
 }
 
 .fWeight-400 {
@@ -81,10 +106,6 @@
     width: 5%;
 }
 
-/* .togetherNoBox-p {
-    font-size: 1.2vw;
-} */
-
 .teamContent h4 {
     font-size: 4vw;
 }
@@ -99,14 +120,6 @@
     font-size: 10vw;
     line-height: 140px;
 }
-
-/* .values {
-    font-size: 3vw;
-} */
-
-/* .who-P {
-    font-size: 1.5vw;
-} */
 
 .find {
     background: linear-gradient(83.18deg, rgba(224, 227, 223, 0.5) 2.38%, rgba(193, 223, 252, 0.5) 47.26%, rgba(149, 242, 255, 0.49) 100%);
@@ -129,6 +142,19 @@
 .clients h1 {
     font-size: 4vw;
     line-height: 63px
+}
+
+.contactUnion {
+    top: 133px;
+    right: 0px;
+    z-index: -1;
+    width: 45%;
+}
+
+.contactBg {
+    background-image: url("../IMAGES/contactBg.svg");
+    height: 100%;
+    border-bottom-left-radius: 30px;    background-repeat: no-repeat;
 }
 
 .address {
@@ -288,6 +314,7 @@
         font-size: 4vw;
         text-align: justify;
     }
+
     .findP-1 {
         font-size: 7.5vw;
         line-height: 45px;
@@ -303,11 +330,18 @@
         line-height: 3.5vh;
     }
 
+    .contactMobileUnion {
+        z-index: 0;
+        top: 100px;
+        width: 100%;
+    }
+    .textIndex{
+        z-index: 1;
+    }
+
     .footerLogo img {
         width: 70%;
     }
-
-
 
     .Copyright {
         font-size: 12px;

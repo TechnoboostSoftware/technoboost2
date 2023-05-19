@@ -5,8 +5,16 @@
     font-style: normal;
 }
 
+.fs-13 {
+    font-size: 13px;
+}
+
 .fs-16 {
     font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
 }
 
 .fs-25 {
@@ -29,14 +37,27 @@
     font-size: 2vw;
 }
 
+.fs-2-7vw {
+    font-size: 2.7vw;
+    line-height: 53px;
+}
+
+
 .fs-40 {
     font-size: 40px;
+}
+
+.fs-50 {
+    font-size: 50px;
 }
 
 .fs-3vw {
     font-size: 3vw;
 }
 
+.fs-4vw {
+    font-size: 4vw;
+}
 
 .fWeight-400 {
     font-weight: 400;
@@ -95,7 +116,7 @@
     line-height: 19vh;
 }
 
-.color {}
+/* .color {} */
 
 .business {
     font-size: 4.5vw;
@@ -140,9 +161,11 @@
     line-height: 8.5vh;
     color: #2AB7CA;
 }
-.technology{
+
+.technology {
     font-size: 4vw;
 }
+
 .caseStudyImg {
     overflow-x: hidden;
 }
@@ -151,6 +174,13 @@
     background-image: url("../IMAGES/Component16.svg");
     height: 365px;
     width: 40%;
+}
+
+.contactBg {
+    background-image: url("../IMAGES/contactBg.svg");
+    height: 100%;
+    border-bottom-left-radius: 30px;
+    background-repeat: no-repeat;
 }
 
 .studyBgImg-2 {
@@ -178,6 +208,10 @@
 .innerServiceBox {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
     border-radius: 30px;
+}
+
+.technoText p {
+    line-height: 60px;
 }
 
 .clientVector {
@@ -210,6 +244,13 @@
 .clients h1 {
     font-size: 4vw;
     line-height: 63px
+}
+
+.contactUnion {
+    top: 133px;
+    right: 0px;
+    z-index: -1;
+    width: 45%;
 }
 
 .address {
@@ -290,6 +331,7 @@
         font-size: 12vw;
         line-height: 60px;
     }
+
     .Products p,
     .services p {
         font-size: 14px;
@@ -307,6 +349,7 @@
     p.innerServiceBox-2 {
         font-size: 6vw;
     }
+
     .bg-services p {
         line-height: 40px;
     }
@@ -445,6 +488,19 @@
         line-height: 5vh;
     }
 
+    .technoUnion {
+        width: 7%;
+    }
+
+    .specialize {
+        font-size: 20px;
+    }
+
+    .technoText p {
+        line-height: 40px;
+        font-size: 6vw;
+    }
+
     .clientAns {
         font-size: 4.8vw;
     }
@@ -466,6 +522,15 @@
     .findP-2 {
         font-size: 4.3vw;
         line-height: 3.5vh;
+    }
+
+    .contactMobileUnion {
+        z-index: 0;
+        top: 100px;
+        width: 100%;
+    }
+    .textIndex{
+        z-index: 1;
     }
 
     .footerLogo img {
