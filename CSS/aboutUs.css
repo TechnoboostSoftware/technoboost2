@@ -36,6 +36,7 @@
 .fs-2vw {
     font-size: 1.8vw;
 }
+
 .fs-2-7vw {
     font-size: 2.7vw;
     line-height: 53px;
@@ -78,9 +79,19 @@
     font-weight: 800;
 }
 
+.bg-nav {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
+
+.navHover:hover {
+    background: transparent;
+}
+
 .colorGrey {
     color: #3D3D3D;
 }
+
 
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
@@ -100,6 +111,11 @@
 
 .landingBox {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+    box-shadow: 0px 18px 20px rgba(0, 0, 0, 0.25);
+}
+
+.purposeText {
+    text-align: justify;
 }
 
 .UnionBox {
@@ -154,26 +170,28 @@
 .contactBg {
     background-image: url("../IMAGES/contactBg.svg");
     height: 100%;
-    border-bottom-left-radius: 30px;    background-repeat: no-repeat;
+    border-bottom-left-radius: 30px;
+    background-repeat: no-repeat;
 }
 
 .address {
     font-size: 1.3vw;
 }
 
-.footerIcon {
-    font-size: 1.8vw;
+
+.footerLine {
+    line-height: 20px;
 }
 
-.footer i {
-    font-size: 2.2vw;
+.footerContactImg {
+    width: 25px;
 }
-
-.Copyright {
-    font-size: 1vw;
+.dropdown a.show{
+    border-bottom: 5px solid #FFC107;
+    border-color: #FFC107;
+    
 }
-
-/*  ############################# TAB ########################### */
+/*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
     .landingDiv p {
         font-size: 3vw;
@@ -188,6 +206,19 @@
     }
 
     .teamContent p {
+        font-size: 2.5vw;
+    }
+
+    .purposeImg {
+        width: 60%;
+        text-align: center;
+    }
+
+    .purposeText {
+        font-size: 4vw;
+    }
+
+    .ceo {
         font-size: 2.5vw;
     }
 
@@ -250,14 +281,9 @@
     }
 
     .clients h1 {
-        font-size: 11vw;
+        font-size: 9vw;
         line-height: 50px;
     }
-
-    .footerLogo img {
-        width: 100%;
-    }
-
 
     .footer h5 {
         font-size: 4vw;
@@ -272,7 +298,7 @@
     }
 
     .footer .Copyright {
-        font-size: 2.5vw;
+        font-size: 16px;
     }
 
 }
@@ -310,6 +336,14 @@
         width: 20px;
     }
 
+    .purposeText {
+        font-size: 5vw;
+    }
+
+    .purposeText {
+        font-size: 5vw;
+    }
+
     .whoText {
         font-size: 4vw;
         text-align: justify;
@@ -335,7 +369,8 @@
         top: 100px;
         width: 100%;
     }
-    .textIndex{
+
+    .textIndex {
         z-index: 1;
     }
 
@@ -343,7 +378,11 @@
         width: 70%;
     }
 
-    .Copyright {
+    .footer .Copyright {
         font-size: 12px;
+    }
+
+    .resume {
+        font-size: 3.5vw;
     }
 }

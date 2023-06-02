@@ -40,7 +40,6 @@
     font-size: 2.7vw;
     line-height: 53px;
 }
-}
 
 .fs-40 {
     font-size: 40px;
@@ -77,9 +76,19 @@
 .fWeight-800 {
     font-weight: 800;
 }
+.bg-nav {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
+.navHover:hover {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
+
 .colorGrey {
     color: #3D3D3D;
 }
+
 
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
@@ -118,11 +127,16 @@
 .address {
     font-size: 1.3vw;
 }
-/*  ############################# TAB ########################### */
+.footerLine{
+    line-height: 20px;
+}
+.footerContactImg{
+    width: 25px;
+}
+
+/*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
-    .footerLogo img {
-        width: 100%;
-    }
+
 
 
     .footer h5 {
@@ -134,12 +148,10 @@
         font-size: 15px;
     }
 
-    .footer i {
-        font-size: 7vw;
-    }
+
 
     .footer .Copyright {
-        font-size: 2.5vw;
+        font-size:16px;
     }
 }
 
@@ -154,10 +166,17 @@
     }
 
     .footerLogo img {
-        width: 70%;
+        width: 50% !important;
     }
 
-    .Copyright {
+    .footer .Copyright {
+        font-size: 16px;
+    }
+    .footerLink a {
+        font-size: 13px;
+    }
+
+    .footer .Copyright {
         font-size: 12px;
     }
 }

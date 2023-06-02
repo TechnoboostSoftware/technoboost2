@@ -29,6 +29,10 @@
     font-size: 1.5vw;
 }
 
+.fs-2-5vw {
+    font-size: 2.5vw;
+}
+
 .fs-30 {
     font-size: 30px;
 }
@@ -87,9 +91,27 @@
     width: 60%;
 }
 
+.bg-nav {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
+
+.navHover:hover {
+    background: transparent;
+    /* backdrop-filter: blur(75px); */
+}
+
+.servicesBtn {
+    background: rgba(255, 255, 255, 0.2);
+}
+.servicesBtn:hover{
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-color:rgba(255, 255, 255, 0.2)!important;
+}
 .colorGrey {
     color: #3D3D3D;
 }
+
 
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
@@ -132,9 +154,9 @@
 }
 
 .goal {
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     border-top: 2px solid #FFCD00;
-    line-height: 5vh;
+    line-height: 5.5vh;
 }
 
 /* .contact {
@@ -144,11 +166,6 @@
 .greyBox {
     background: rgba(8, 26, 63, 0.04);
     backdrop-filter: blur(10.5px);
-}
-
-
-.purposeText {
-    text-align: justify;
 }
 
 /* 
@@ -168,7 +185,7 @@
 }
 
 .technology {
-    font-size: 4vw;
+    font-size: 3.2vw;
 }
 
 .caseStudyImg {
@@ -207,7 +224,7 @@
 
 .bg-services p {
     border: none;
-    line-height: 25px;
+    line-height: 33px;
 }
 
 .innerServiceBox {
@@ -288,6 +305,19 @@
     border-top-right-radius: 10px;
 }
 
+.footerLine {
+    line-height: 20px;
+}
+
+.footerContactImg {
+    width: 25px;
+}
+
+.dropdown a.show{
+    border-bottom: 5px solid #FFC107;
+    border-color: #FFC107;
+    
+}
 
 
 /*  #############################  TAB ########################### */
@@ -314,18 +344,8 @@
         font-size: 4vw;
     }
 
-    .purposeImg {
-        width: 60%;
-        text-align: center;
-    }
 
-    .purposeText {
-        font-size: 4vw;
-    }
 
-    .ceo {
-        font-size: 2.5vw;
-    }
 
     .our {
         font-size: 9vw;
@@ -413,32 +433,24 @@
     }
 
     .clients h1 {
-        font-size: 11vw;
+        font-size: 9vw;
         line-height: 50px;
-    }
-
-    .footerLogo img {
-        width: 100%;
     }
 
     .footer h5 {
         font-size: 4vw;
     }
 
-    .footer p {
-        font-size: 3.7vw;
-    }
-
     .footerLink a {
-        font-size: 15px;
-    }
-
-    .footer i {
-        font-size: 7vw;
+        font-size: 16px;
     }
 
     .footer .Copyright {
-        font-size: 2.5vw;
+        font-size: 16px;
+    }
+
+    .resume {
+        font-size: 3vw;
     }
 }
 
@@ -457,9 +469,6 @@
         line-height: 30px;
     }
 
-    .purposeText {
-        font-size: 5vw;
-    }
 
     .ceo {
         font-size: 3.5vw;
@@ -479,18 +488,22 @@
     }
 
     .harness p {
-        font-size: 7vw;
+        font-size: 5.5vw;
         line-height: 6vh;
     }
 
     .power {
-        font-size: 10vw;
+        font-size: 7vw;
         line-height: 5vh;
     }
 
     .technology {
-        font-size: 8vw;
-        line-height: 5vh;
+        font-size: 5.5vw;
+        line-height: 4.5vh;
+    }
+
+    .technology-2 {
+        font-size: 5vw;
     }
 
     .technoUnion {
@@ -540,14 +553,18 @@
     }
 
     .footerLogo img {
-        width: 70%;
+        width: 50% !important;
     }
 
-    .footer a {
-        font-size: 12px;
+    .footer .Copyright {
+        font-size: 16px;
     }
 
-    .Copyright {
-        font-size: 12px;
+    .footerLink a {
+        font-size: 13px;
+    }
+
+    .resume {
+        font-size: 3.5vw;
     }
 }

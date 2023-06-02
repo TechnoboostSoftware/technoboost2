@@ -27,7 +27,7 @@
 
     <body>
         <!-- ############################# NAVBAR #############################-->
-        <nav class="navbar navbar-expand-md bg-light py-0">
+        <nav class="navbar navbar-expand-md bg-light py-0" style="position: sticky;top: 0px;z-index: 100">
             <div class=" container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="IMAGES/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,33 +49,33 @@
                         </li> -->
 
 
-                        <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
+                        <li class="nav-item me-5  dropdown">
+                            <a class="p-0 pb-1 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
                                 id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="startUp.html">Startup
-                                        Support</a></li>
-                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="development.html">Custom
-                                        Development</a></li>
-                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="ux.html">UX Designing</a></li>
-                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="dataAnalytics.html">Data
-                                        Analytics & Reporting</a></li>
+                            <ul class="dropdown-menu bg-nav rounded-0 border-0 px-2 py-3 m-0" aria-labelledby="navbarDropdown">
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="startUp.html"> Startup
+                                        Support <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="development.html"> Software Engineering
+                                        <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="ux.html"> UX Designing <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="dataAnalytics.html"> Data
+                                        Analytics & Reporting <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item me-3 ">
-                            <a class="px-4 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">About Us</a>
+                        <li class="nav-item me-4 ">
+                            <a class="p-0 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">Company</a>
                         </li>
-                        <li class="nav-item d-sm-inline d-none me-3 px-4">
-                            <button class="btn btn-warning fWeight-600 px-4 rounded-0 contact fs-16"
-                                data-bs-toggle="modal" data-bs-target="#extraLargeModal">Contact Us</button>
+                        <li class="nav-item me-3 px-4">
+                            <a href="#contact" class="text-decoration-none">
+                                <button class="btn btn-warning fWeight-600 px-4 rounded-0 contact fs-16">Contact
+                                    Us</button></a>
                         </li>
-                        <li class="nav-item d-sm-none d-inline me-3 px-4">
-                            <button class="btn btn-warning fWeight-600 px-4 rounded-0 contact fs-16"
-                                data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
-                        </li>
-
                     </ul>
                 </div>
             </div>
@@ -94,12 +94,12 @@
                 </div>
             </section>
             <section id="rowContent" class="container">
-                <div class="row  align-items-center align-items-center py-5">
-                    <div class="col-md-4 col-12 d-flex justify-content-center ">
-                        <img src="IMAGES/women.svg" width="75%">
+                <div class="row  align-items-center  py-5">
+                    <div class="col-md-3 col-12 d-flex justify-content-md-start justify-content-center">
+                        <img src="IMAGES/women.svg" width="100%" class="women">
                     </div>
-                    <div class="col-md-8 col-12 pt-5 pt-md-0">
-                        <p class="fWeight-400 fs-30  passionate text-jusify">We are passionate about helping startups
+                    <div class="col-md-9 col-12 pt-5 pt-md-0 ps-md-5">
+                        <p class="fWeight-400 fs-25 passionate text-jusify">We are passionate about helping startups
                             turn
                             their
                             innovative ideas into successful businesses.
@@ -116,78 +116,68 @@
             <!-- ########################################## content ####################### -->
             <section id="content">
                 <div class="container">
-                    <div class="content pt-5">
+                    <div class="content">
                         <div>
-                            <h1 class="fWeight-800">Our Startup Services Include</h1>
+                            <h1 class="fWeight-700 mb-5">Our Startup Services Include</h1>
+                            <p class="fWeight-400 fs-25">At Technoboost, we offer a comprehensive range of services
+                                tailored specifically for
+                                startups. Whether you are in the early stages of ideation or already have a prototype
+                                ready to go, our team is here to provide you with the support you need to turn your
+                                vision into reality. Here are some of the key services we offer</p>
                         </div>
                         <div class="row py-4 px-md-0 px-5 justify-content-center">
-                            <div class=" col-lg-4 col-md-6 col-12 py-md-4 py-3">
-                                <div class="bg-startUpBox h-100">
-                                    <div class="d-flex flex-column h-100 align-items-center innerStartupBox px-4 py-2">
-                                        <img src="IMAGES/BusinessPlan.svg" class="py-3">
-                                        <div>
-                                            <p class="fs-20 text-center fWeight-700 ">Business Plan Development</p>
-                                            <p class="fs-20 fWeight-400 text-jusify">Our team of experienced business
-                                                consultants can help you create a solid business plan that outlines your
-                                                goals, strategies, and financial projections. With a well-crafted
-                                                business plan, you can attract investors, secure funding, and stay on
-                                                track as you grow your business.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" col-lg-4 col-md-6 col-12 py-md-4 py-3">
+                            <div class=" col-lg-5 col-12 py-md-4 py-3 px-4">
                                 <div class="bg-startUpBox h-100">
                                     <div class="d-flex flex-column h-100 align-items-center innerStartupBox px-4 py-2">
                                         <img src="IMAGES/MarketResearch.svg" class="py-3">
                                         <div>
-                                            <p class="fs-20 text-center fWeight-700 ">Market Research</p>
-                                            <p class="fs-20 fWeight-400 text-jusify">To succeed in any industry, you
-                                                need a deep understanding of your market, customers, and competitors.
-                                                Our market research experts can help you gather and analyze data to
-                                                identify opportunities and make informed decisions.</p>
+                                            <p class="fs-20 text-center fWeight-700 ">IT Consulting and Strategy</p>
+                                            <p class="fs-20 fWeight-400 text-jusify">We will work closely with you to
+                                                understand your business goals, evaluate your IT needs, and develop a
+                                                comprehensive strategy to align technology with your startup's
+                                                objectives. We will assess your existing infrastructure, identify areas
+                                                for improvement, and recommend the most suitable solutions to optimize
+                                                your operations</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class=" col-lg-4 col-md-6 col-12 py-md-4 py-3">
-                                <div class="bg-startUpBox h-100">
-                                    <div class="d-flex flex-column h-100 align-items-center innerStartupBox px-4 py-2">
-                                        <img src="IMAGES/Branding.svg" class="py-3">
-                                        <div>
-                                            <p class="fs-20 text-center fWeight-700 ">Branding and Identity</p>
-                                            <p class="fs-20 fWeight-400 text-jusify">A strong brand can help you stand
-                                                out from the competition and build a loyal customer base. We can help
-                                                you develop a compelling brand identity that reflects your values,
-                                                vision, and unique selling proposition.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" col-lg-4 col-md-6 col-12 py-md-4 py-3">
+                            <div class=" col-lg-5 col-12 py-md-4 py-3 px-4">
                                 <div class="bg-startUpBox h-100">
                                     <div class="d-flex flex-column h-100 align-items-center innerStartupBox px-4 py-2">
                                         <img src="IMAGES/Product.svg" class="py-3">
                                         <div>
-                                            <p class="fs-20 text-center fWeight-700 ">Product Development</p>
-                                            <p class="fs-20 fWeight-400 text-jusify">Whether you're creating a new
-                                                software application or a physical product, our product development team
-                                                can help you bring your ideas to life. We can assist with everything
-                                                from prototyping and design to manufacturing and distribution.</p>
+                                            <p class="fs-20 text-center fWeight-700 ">Software Development and
+                                                Prototyping</p>
+                                            <p class="fs-20 fWeight-400 text-jusify">We specialize in developing custom
+                                                software solutions tailored to meet the unique requirements of startups.
+                                                From web and mobile applications to scalable backend systems, our
+                                                development team will bring your ideas to life. We follow agile
+                                                methodologies to ensure rapid prototyping, quick iterations, and a
+                                                seamless development process.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class=" col-lg-4 col-md-6 col-12 py-md-4 py-3">
-                                <div class="bg-startUpBox h-100">
-                                    <div class="d-flex flex-column h-100 align-items-center innerStartupBox px-4 py-2">
-                                        <img src="IMAGES/growth.svg" class="py-3">
-                                        <div>
-                                            <p class="fs-20 text-center fWeight-700 ">Growth Hacking & Marketing</p>
-                                            <p class="fs-20 fWeight-400 text-jusify">Accelerating user acquisition and
-                                                driving growth are vital for startups. We employ growth hacking
-                                                techniques and digital marketing strategies to optimize your online
-                                                presence, enhance brand awareness, and attract a targeted user base.</p>
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class=" col-lg-5 col-md-6 col-12 py-md-4 py-3">
+                                    <div class="bg-startUpBox h-100">
+                                        <div
+                                            class="d-flex flex-column h-100 align-items-center innerStartupBox px-4 py-2">
+                                            <img src="IMAGES/growth.svg" class="py-3">
+                                            <div>
+                                                <p class="fs-20 text-center fWeight-700 px-2">Data Analytics and
+                                                    Business
+                                                    Intelligence</p>
+                                                <p class="fs-20 fWeight-400 text-jusify">Unlock the power of your
+                                                    startup's data with our advanced analytics and business intelligence
+                                                    solutions. We help you collect, analyse, and visualize data to gain
+                                                    valuable insights into your customers, market trends, and
+                                                    operational efficiency. Our team will assist you in making
+                                                    data-driven decisions to drive growth and stay ahead of the
+                                                    competition.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -211,15 +201,17 @@
                         Startup
                         Services and how we can help you take your business to the next level.
                     </p>
-                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw my-4">Contact
-                        Us</button>
+                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 d-sm-inline d-none contact"
+                        data-bs-toggle="modal" data-bs-target="#extraLargeModal">Contact Us</button>
+                    <button class="btn btn-warning fWeight-700 px-4 mb-4 rounded-0 d-sm-none d-inline contact fs-16"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
 
                 </div>
             </section>
             <!-- ########################################## clients ####################### -->
             <section id="clients">
                 <div class="clients container">
-                    <h1 class=" text-center py-4 colorGrey fWeight-700">Clients</h1>
+                    <h1 class=" text-center pt-5 pb-3 colorGrey fWeight-700 m-0">Clients</h1>
                     <div class="row row-cols-3 row-cols-md-5 align-items-center mb-md-5 mb-3">
                         <div class="col-md col-4 text-center">
                             <img src="IMAGES/download-(3).svg" class="w-75 py-2 px-2">
@@ -267,9 +259,11 @@
                                         <div class="px-4 position-relative">
                                             <div class="d-flex flex-column">
                                                 <div class="d-flex gap-4">
-                                        <input type="text" class="px-3 py-2 my-3 w-50" placeholder="First Name">
-                                        <input type="text" class="px-3 py-2 my-3 w-50" placeholder="Last Name">
-                                    </div>
+                                                    <input type="text" class="px-3 py-2 my-3 w-50"
+                                                        placeholder="First Name">
+                                                    <input type="text" class="px-3 py-2 my-3 w-50"
+                                                        placeholder="Last Name">
+                                                </div>
                                                 <input type="text" class="px-3 py-2 my-3" placeholder="Email Address">
                                                 <textarea class="px-3 py-2 my-3" placeholder="Enter Message"
                                                     id="message" cols="30" rows="5"></textarea>
@@ -287,7 +281,6 @@
                     </div>
                 </div>
             </div>
-
 
             <!-- Mobile Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -307,8 +300,8 @@
                                 <input type="text" class="px-3 py-2 my-3 textIndex" placeholder="First Name">
                                 <input type="text" class="px-3 py-2 my-3 textIndex" placeholder="Last Name">
                                 <input type="text" class="px-3 py-2 my-3 textIndex" placeholder="Email Address">
-                                <textarea class="px-3 py-2 my-3 textIndex" placeholder="Enter Message" id="message" cols="30"
-                                    rows="5"></textarea>
+                                <textarea class="px-3 py-2 my-3 textIndex" placeholder="Enter Message" id="message"
+                                    cols="30" rows="5"></textarea>
                             </div>
                             <div class="d-flex justify-content-center pt-3">
                                 <button class="btn btn-warning fWeight-600 px-4 rounded-0 fs-13">Send
@@ -320,33 +313,29 @@
             </div>
         </main>
         <!-- ########################################## footer ####################### -->
-        <footer class=" bg-main px-md-0 px-3">
+        <footer class=" bg-main px-md-0 px-3  pb-3">
             <div class="footer container-fluid">
                 <div class="row pt-5">
                     <div class="col-md-5 col-12">
                         <div class="d-flex flex-column px-md-5 px-0 text-md-start ">
                             <div class="d-flex mb-2">
-                                <!-- <i class="fa-sharp footerIcon fs-1vw fa-solid fa-location-dot text-warning"></i> -->
-                                <img src="IMAGES/location.svg" class="me-4">
-                                <div class="text-light d-flex flex-column">
+                                <img src="IMAGES/location.svg" class="me-4 footerContactImg">
+                                <div class="text-light d-flex flex-column footerLine">
                                     <p class="fs-16 fWeight-400 m-0"> Techno Boost Services</p>
                                     <p class="fs-16 fWeight-400 m-0">KPTCL Road, Kasavanahalli,</p>
                                     <p class="fs-16 fWeight-400 m-0">Sarjapura Road,</p>
                                     <p class="fs-16 fWeight-400 m-0">Bangalore 560035</p>
                                 </div>
                             </div>
-                            <div class="d-flex mb-3">
-                                <!-- <i class="me-4 footerIcon fs-1vw fa-solid fa-phone text-warning"></i> -->
-                                <img src="IMAGES/call.svg" class="me-4">
+                            <div class="d-flex mb-2 align-items-center">
+                                <img src="IMAGES/call.svg" class="me-4 footerContactImg">
                                 <a href="tel:+91-7019506095" class="text-decoration-none fs-16 fWeight-400 text-light">
                                     +91 9632968050
                                 </a>
                             </div>
-                            <div class="d-flex ">
-                                <!-- <i class="me-4 h3 footerIcon fs-1vw fa-solid fa-envelope text-warning"></i> -->
-                                <img src="IMAGES/sms.svg" class="me-4">
-                                <a href="mailto:contactus@technoboost.in"
-                                    class="text-decoration-none fs-16 fWeight-400 text-warning">
+                            <div class="d-flex align-items-center">
+                                <img src="IMAGES/sms.svg" class="me-4 footerContactImg">
+                                <a href="mailto:contactus@technoboost.in" class=" fs-16 fWeight-400 text-warning">
                                     contactus@technoboost.in
                                 </a>
                             </div>
@@ -383,9 +372,9 @@
                                 <h5 class="text-light fWeight-700 fs-1vw">Social</h5>
                                 <ul class="ps-0">
                                     <li class="fWeight-400  list-unstyled py-1">
-                                        <img src="IMAGES/linkedIn.svg"> <a
-                                            href="https://www.linkedin.com/company/technoboost/about/"
-                                            class="text-decoration-none  text-light fs-16 fWeight-400">LinkedIn</a>
+                                        <a href="https://www.linkedin.com/company/technoboost-services/" target="_blank"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400"><img
+                                                src="IMAGES/linkedIn.svg" class="me-2"> LinkedIn</a>
                                     </li>
                                 </ul>
                             </div>
@@ -393,18 +382,28 @@
                         </div>
                     </div>
                 </div>
-                <div class="footerLogo row d-flex flex-column-reverse flex-md-row align-items-center">
-                    <div class="col-md-8 col-12 d-flex justify-content-md-end justify-content-center"><img
-                            src="IMAGES/footerLogo.svg"></div>
-                    <div class="col-md-4 col-12">
-                        <p class="mb-0 text-light Copyright text-md-end text-center">Copyright © 2023 . Technoboost
+                <div
+                    class="footerLogo row d-lg-none d-flex flex-column-reverse align-items-center justify-content-center text-center pt-md-4 pt-2">
+                    <img src="IMAGES/footerLogo.svg" class="w-25">
+                    <p class="mb-0 text-light Copyright">Copyright © 2023 . Technoboost
+                        .
+                        all rights
+                        reserved
+                    </p>
+                </div>
+                <div class="footerLogo d-none d-lg-block position-relative">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <img src="IMAGES/footerLogo.svg">
+                    </div>
+                    <div class="text-end">
+                        <p class=" m-0 text-light Copyright">Copyright © 2023 . Technoboost
                             .
                             all rights
                             reserved
                         </p>
                     </div>
-
                 </div>
+            </div>
             </div>
         </footer>
     </body>

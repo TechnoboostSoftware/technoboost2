@@ -40,7 +40,6 @@
     font-size: 2.7vw;
     line-height: 53px;
 }
-}
 
 .fs-40 {
     font-size: 40px;
@@ -81,9 +80,18 @@
     text-align: justify;
 }
 
+.bg-nav {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
+.navHover:hover {
+    background: transparent;
+}
+
 .colorGrey {
     color: #3D3D3D;
 }
+
 
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
@@ -101,7 +109,7 @@
 }
 
 .bg-startUpBox {
-    background: #FED631;
+    background: #2AB7CA;
     border: 1px solid #757575;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -111,8 +119,8 @@
 .innerStartupBox {
     background: #ffff;
     border-radius: 15px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
 }
 
 #ourWork h4 {
@@ -147,20 +155,25 @@
     font-size: 1.3vw;
 }
 
-.footerIcon {
-    font-size: 1.8vw;
+
+.footerLine{
+    line-height: 20px;
+}
+.footerContactImg{
+    width: 25px;
+}
+.dropdown a.show{
+    border-bottom: 5px solid #FFC107;
+    border-color: #FFC107;
+    
 }
 
-.footer i {
-    font-size: 2.2vw;
-}
 
-.Copyright {
-    font-size: 1vw;
-}
-
-/*  ############################# TAB ########################### */
+/*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
+    .developmentPage{
+        width: 50%;
+    }
     .passionate {
         font-size: 4vw;
     }
@@ -192,13 +205,11 @@
     }
 
     .clients h1 {
-        font-size: 11vw;
+        font-size: 9vw;
         line-height: 50px;
     }
 
-    .footerLogo img {
-        width: 100%;
-    }
+
 
     .footer h5 {
         font-size: 4vw;
@@ -210,12 +221,10 @@
         font-size: 15px;
     }
 
-    .footer i {
-        font-size: 7vw;
-    }
+
 
     .footer .Copyright {
-        font-size: 2.5vw;
+        font-size:16px;
     }
 }
 
@@ -227,6 +236,10 @@
         font-size: 4vw;
     }
 
+    .innerStartupBox {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
     .content p {
         font-size: 3.5vw;
     }
@@ -259,12 +272,19 @@
     }
 
     .footerLogo img {
-        width: 70%;
+        width: 50% !important;
+    }
+
+    .footer .Copyright {
+        font-size: 16px;
+    }
+    .footerLink a {
+        font-size: 13px;
     }
 
 
 
-    .Copyright {
+    .footer .Copyright {
         font-size: 12px;
     }
 }
