@@ -92,22 +92,22 @@
 }
 
 .bg-nav {
+    background: #13113A;
+}
+.navHover:hover {
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
-}
-
-.navHover:hover {
-    background: transparent;
-    /* backdrop-filter: blur(75px); */
 }
 
 .servicesBtn {
     background: rgba(255, 255, 255, 0.2);
 }
-.servicesBtn:hover{
-    background: rgba(255, 255, 255, 0.2)!important;
-    border-color:rgba(255, 255, 255, 0.2)!important;
+
+.servicesBtn:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
 }
+
 .colorGrey {
     color: #3D3D3D;
 }
@@ -121,6 +121,10 @@
 }
 
 .bg-main {
+    background: #13113A;
+}
+
+.bg-mainFooter {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
@@ -313,21 +317,23 @@
     width: 25px;
 }
 
-.dropdown a.show{
+.dropdown a.show {
     border-bottom: 5px solid #FFC107;
     border-color: #FFC107;
-    
+
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 200px;
 }
 
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
-    .dropdown-menu{
+    .dropdown-menu {
         background-color: #908c8c;
     }
+
     .grow {
         font-size: 19vw;
         line-height: 14vh;
@@ -349,9 +355,6 @@
     .contact {
         font-size: 4vw;
     }
-
-
-
 
     .our {
         font-size: 9vw;
